@@ -74,6 +74,7 @@ HEADER=(
   -H 'Content-Type: application/json'
   -H 'Accept-Language: en-us'
   -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1 Safari/605.1.15'
+  -H 'Cookie: dl_session=f498f467-d62e-aaa9-3b04-5059f0eb4778; dl_logoutReason=%7B%22loggedOutReason%22%3A%22USER_REQUEST%22%2C%22loggedOutReasonText%22%3A%22%5Cu4f60%5Cu5df2%5Cu7ecf%5Cu9000%5Cu51fa%5Cu767b%5Cu5f55%5Cu3002%22%7D; privacySettings=%7B%22v%22%3A%221%22%2C%22t%22%3A1607990400%2C%22m%22%3A%22LAX%22%2C%22consent%22%3A%5B%22NECESSARY%22%2C%22PERFORMANCE%22%2C%22COMFORT%22%5D%7D;'
 )
 ###############################################################################
 
