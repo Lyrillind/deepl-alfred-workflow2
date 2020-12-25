@@ -62,7 +62,8 @@ fi
 query="$(echo "$query" | sed 's/.$//')"
 # shellcheck disable=SC2001
 query="$(echo "$query" | sed 's/\"/\\\"/g')"
-data='{"jsonrpc":"2.0","method": "LMT_handle_jobs","params":{"jobs":[{"kind":"default","raw_en_sentence":"'"$query"'","preferred_num_beams":4,"raw_en_context_before":[],"raw_en_context_after":[],"quality":"fast"}],"lang":{"user_preferred_langs":["DE","EN"],"source_lang_user_selected":"auto","target_lang":"'"${LANGUAGE:-EN}"'"},"priority":-1,"timestamp":1557063997314},"id":79120002}'
+
+data='{"jsonrpc":"2.0","method": "LMT_handle_jobs","params":{"jobs":[{"kind":"default","raw_en_sentence":"'"$query"'","preferred_num_beams":4,"raw_en_context_before":[],"raw_en_context_after":[],"quality":"fast"}],"lang":{"user_preferred_langs":["ZH","EN","JA"],"source_lang_user_selected":"auto","target_lang":"'"${LANGUAGE:-ZH}"'"},"priority":-1,"timestamp":1557063997314},"id":79120002}'
 HEADER=(
   --compressed
   -H 'authority: www2.deepl.com'
