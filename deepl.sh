@@ -5,7 +5,7 @@
 VERSION="1.20"
 PATH="$PATH:/usr/local/bin/"
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
-LANGUAGE=${DEEPL_TARGET:-EN}
+LANGUAGE=${DEEPL_TARGET:-ZH}
 PARSER="jq"
 if ! type "$PARSER" >/dev/null 2>&1; then
   PARSER="${DIR}/jq-dist"
